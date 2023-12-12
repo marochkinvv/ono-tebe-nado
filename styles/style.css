@@ -281,7 +281,7 @@ section:not(.cover) {
   display: grid;
   grid-template-columns: 430px 1fr;
   column-gap: 25px;
-  row-gap: 8px;
+  row-gap: 7px;
 }
 
 .about__column_col-center {
@@ -329,9 +329,9 @@ section:not(.cover) {
 }
 
 .footer {
-  padding: 180px 50px 90px;
-  display: flex;
-  justify-content: space-between;
+  padding: 181px 50px 90px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .footer__menu-list {
@@ -355,6 +355,7 @@ section:not(.cover) {
   display: flex;
   list-style-type: none;
   gap: 48px;
+  justify-content: end;
 }
 
 .footer__social-list-item {
