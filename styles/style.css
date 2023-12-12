@@ -109,12 +109,11 @@ section:not(.cover) {
   font-style: normal;
   font-weight: 700;
   line-height: 100%;
-  letter-spacing: 30px;
   text-transform: uppercase;
 }
 
 .aligned-text {
-  display: flex;;
+  display: flex;
 }
 
 .aligned-text-first {
@@ -122,12 +121,16 @@ section:not(.cover) {
 }
 
 .aligned-text_center {
-  justify-content: center;
+  align-self: center;
   padding-right: 60px;
 }
 
 .aligned_right {
-  justify-content: right;
+  align-self: end;
+}
+
+.letter-spacing-normal {
+  letter-spacing: 30px;
 }
 
 .letter-spacing-extended {
